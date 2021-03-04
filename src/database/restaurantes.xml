@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurantes>
+
+    <restaurante id="36L9e6kX20">
+        <nombre>Olocuilta</nombre>
+        <direccion>7 Big Rock Cove Dr.Ormond Beach, FL 32174</direccion>
+        <telefono>(653) 588-1704</telefono>
+        <email>olocuilta@gmail.com</email>
+        <horario>
+            <inicio>8:30</inicio>
+            <final>22:00</final>
+        </horario>
+        <tematica>Comida Salvadoreña</tematica>
+        <menu>
+        	<entradas>
+        		<entrada>
+        			<nombre>Pastelitos</nombre>
+        			<precio moneda="euros">2.00</precio>
+        		</entrada>
+        	</entradas>
+        	<platillos>
+        		<platillo>
+        			<nombre>Pupusas</nombre>
+        			<precio moneda="euros" cantidad_por_precio="5">2.00</precio>
+        		</platillo>
+        	</platillos>
+        	<reposteria>
+        		<postre>
+        			<nombre>Peperecha</nombre>
+        			<precio moneda="euros">0.50</precio>
+        		</postre>
+        	</reposteria>
+        </menu>
+        
+    </restaurante>
+
+    <restaurante id="Ja3vRjKDBT">
+        <nombre>Tortillería los 3 tiempos</nombre>
+        <direccion>86 West Dunbar Street Tualatin, OR 97062</direccion>
+        <telefono>(932) 546-3280</telefono>
+        <email>tortilleria3@gmail.com</email>
+        <horario>
+            <inicio>5:30</inicio>
+            <final>23:00</final>
+        </horario>
+        <tematica>Comida Guatemalteca</tematica>
+        <menu>
+        	<entradas>
+        		<entrada>
+        			<nombre>Enchiladas</nombre>
+        			<precio moneda="euros" cantidad_por_precio="2">3.00</precio>
+        		</entrada>
+        	</entradas>
+        	<platillos>
+        		<platillo>
+        			<nombre>Kak ik</nombre>
+        			<precio moneda="euros">4.00</precio>
+        		</platillo>
+        	</platillos>
+        	<reposteria>
+        		<postre>
+        			<nombre>Buñuelos</nombre>
+        			<precio moneda="euros" cantidad_por_precio="2">1.00</precio>
+        		</postre>
+        	</reposteria>
+        </menu>
+    </restaurante>
+
+    <restaurante id="BoztyywFjA">
+        <nombre>Rafaelito "El de siempre"</nombre>
+        <direccion>7363 Sunnyslope Dr.Elizabethtown, PA 17022</direccion>
+        <telefono>(549) 573-8345</telefono>
+        <email>rafaelito@gmail.com</email>
+        <horario>
+            <inicio>8:00</inicio>
+            <final>21:00</final>
+        </horario>
+        <tematica>Comida Ecuatoriana</tematica>
+        <menu>
+        	<entradas>
+        		<entrada>
+        			<nombre>Ceviche de Camarón</nombre>
+        			<precio moneda="euros">2.50</precio>
+        		</entrada>
+        	</entradas>
+        	<platillos>
+        		<platillo>
+        			<nombre>Cuy Asado</nombre>
+        			<precio moneda="euros">5.00</precio>
+        		</platillo>
+        	</platillos>
+        	<reposteria>
+        		<postre>
+        			<nombre>Morocho</nombre>
+        			<precio moneda="euros">1.00</precio>
+        		</postre>
+        	</reposteria>
+        </menu>
+    </restaurante>
+    
+    <restaurante id="GVSdCVzpcQ">
+        <nombre>El Guerrero</nombre>
+        <direccion>286 Harrison Street West Islip, NY 11795</direccion>
+        <telefono>(882) 216-3066</telefono>
+        <email>guerrero@gmail.com.mx</email>
+        <horario>
+            <inicio>10:00</inicio>
+            <final>24:00</final>
+        </horario>
+        <tematica>Comida Mexicana</tematica>
+       <menu>
+        	<entradas>
+        		<entrada>
+        			<nombre>Nachos</nombre>
+        			<precio moneda="euros">4.00</precio>
+        		</entrada>
+        	</entradas>
+        	<platillos>
+        		<platillo>
+        			<nombre>Taquiza</nombre>
+        			<precio moneda="euros">5.00</precio>
+        		</platillo>
+        	</platillos>
+        	<reposteria>
+        		<postre>
+        			<nombre>Tiramisú de Mazapán</nombre>
+        			<precio moneda="euros">4.50</precio>
+        		</postre>
+        	</reposteria>
+        </menu>
+    </restaurante>
+
+    <restaurante id="Xn6r5pcokR">
+        <nombre>Primos</nombre>
+        <direccion>346 Talbot St.Harrisonburg, VA 22801</direccion>
+        <telefono>(961) 884-0882</telefono>
+        <email>primos@gmail.com</email>
+        <horario>
+            <inicio>11:30</inicio>
+            <final>23:30</final>
+        </horario>
+        <tematica>Comida Colombiana</tematica>
+        <menu>
+        	<entradas>
+        		<entrada>
+        			<nombre>Empanadas</nombre>
+        			<precio moneda="euros">2.50</precio>
+        		</entrada>
+        	</entradas>
+        	<platillos>
+        		<platillo>
+        			<nombre>Bandeja Paisa</nombre>
+        			<precio moneda="euros">13.00</precio>
+        		</platillo>
+        	</platillos>
+        	<reposteria>
+        		<postre>
+        			<nombre>Postre de coco</nombre>
+        			<precio moneda="euros">3.50</precio>
+        		</postre>
+        	</reposteria>
+        </menu>
+    </restaurante>
+
+    <restaurante id="JnnRAOBLlZ">
+        <nombre>El Rincón de la Cuba</nombre>
+        <direccion>36 Eagle St.Decatur, GA 30030</direccion>
+        <telefono>(955) 566-4160</telefono>
+        <email>rinconcuba@gmail.com</email>
+        <horario>
+            <inicio>7:00</inicio>
+            <final>21:00</final>
+        </horario>
+        <tematica>Comida Cubana</tematica>
+        <menu>
+        	<entradas>
+        		<entrada>
+        			<nombre>Ajiaco</nombre>
+        			<precio moneda="euros">4.00</precio>
+        		</entrada>
+        	</entradas>
+        	<platillos>
+        		<platillo>
+        			<nombre>Lechón Asado</nombre>
+        			<precio moneda="euros">6.50</precio>
+        		</platillo>
+        	</platillos>
+        	<reposteria>
+        		<postre>
+        			<nombre>Cafiroleta</nombre>
+        			<precio moneda="euros">3.00</precio>
+        		</postre>
+        	</reposteria>
+        </menu>
+    </restaurante>
+
+    <restaurante id="cb-UvGImO0">
+        <nombre>Vidamia</nombre>
+        <direccion>851 Ann Road West New York, NJ 07093</direccion>
+        <telefono>(955) 566-4160</telefono>
+        <email>vidamia@gmail.com.sv</email>
+        <horario>
+            <inicio>10:00</inicio>
+            <final>23:00</final>
+        </horario>
+        <tematica>Comida Gourmet</tematica>
+        <menu>
+        	<entradas>
+        		<entrada>
+        			<nombre>Papa gratinada con jamón y queso</nombre>
+        			<precio moneda="euros">6.00</precio>
+        		</entrada>
+        	</entradas>
+        	<platillos>
+        		<platillo>
+        			<nombre>Pollo con salsa de hongos</nombre>
+        			<precio moneda="euros">9.00</precio>
+        		</platillo>
+        	</platillos>
+        	<reposteria>
+        		<postre>
+        			<nombre>Tres Leches</nombre>
+        			<precio moneda="euros">4.50</precio>
+        		</postre>
+        	</reposteria>
+        </menu>
+    </restaurante>
+
+    
+
+
+</restaurantes>

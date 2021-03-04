@@ -22,8 +22,8 @@ public class Main {
 		int foodOption = 0;
 		String queryData[];
 		
-		System.out.println("=== FOODA su aplicación automática de comida ===");
-		System.out.println("Indique el código del restaurante");
+		System.out.println("=== FOODA su aplicaciÃ³n automÃ¡tica de comida ===");
+		System.out.println("Indique el cÃ³digo del restaurante");
 		code = input.nextLine();
 		
 		String query = "for $x in doc('src/database/restaurantes.xml')/restaurantes/restaurante"
@@ -32,7 +32,7 @@ public class Main {
 				+ "$x/tematica, ',' , "
 				+ "$x/menu/entradas/entrada/nombre, ',',  "
 				+ "$x/menu/platillos/platillo/nombre, ',',"
-				+ "$x/menu/resposteria/postre/nombre)";
+				+ "$x/menu/reposteria/postre/nombre)";
 
 		
 		queryData = query(query).split(",");
@@ -40,13 +40,13 @@ public class Main {
 		System.out.println("_________________________________________________");
 		System.out.println("|                                                |");
 		System.out.println("|Bienvenido al restaurante "+ queryData[0] + "|");
-		System.out.println("|Su temática es: " + queryData[1] + "            |");
+		System.out.println("|Su temÃ¡tica es: " + queryData[1] + "            |");
 		System.out.println("|________________________________________________|");
-		System.out.println("| ¿Qué desea ordenar?                             |");
-		System.out.println("| Pulse el número correspondiente para pedir      |");
+		System.out.println("| Â¿QuÃ© desea ordenar?                             |");
+		System.out.println("| Pulse el nÃºmero correspondiente para pedir      |");
 		System.out.println("| (1) para pedir entradas                         |");
 		System.out.println("| (2) para pedir platillos                        |");
-		System.out.println("| (3) para pedir respostería                      |");
+		System.out.println("| (3) para pedir resposterÃ­a                      |");
 		System.out.println("| (4) para salir del programa                     |");
 		System.out.println("___________________________________________________");
 		menuOptions = input.nextInt();
@@ -76,7 +76,7 @@ public class Main {
 
 			case 3:
 				System.out.println("---------------------------------------");
-				System.out.println("|Opciones de Repostería                 |");
+				System.out.println("|Opciones de ReposterÃ­a                 |");
 				System.out.println("----------------------------------------");
 				System.out.println("  (1) " + queryData[4]);
 				System.out.println("----------------------------------------");
@@ -89,16 +89,16 @@ public class Main {
 			System.out.println("Orden anotada");
 			
 			System.out.println("___________________________________________________");
-			System.out.println("| ¿Desea ordenar algo más?                        |");
-			System.out.println("| Pulse el número correspondiente para pedir      |");
+			System.out.println("| Â¿Desea ordenar algo mÃ¡s?                        |");
+			System.out.println("| Pulse el nÃºmero correspondiente para pedir      |");
 			System.out.println("| (1) para pedir entradas                         |");
 			System.out.println("| (2) para pedir platillos                        |");
-			System.out.println("| (3) para pedir respostería                      |");
+			System.out.println("| (3) para pedir resposterÃ­a                      |");
 			System.out.println("| (4) para salir del programa                     |");
 			System.out.println("___________________________________________________");
 			menuOptions = input.nextInt();
 		}
-		System.out.println("Ten un excelente día");
+		System.out.println("Ten un excelente dÃ­a");
 	}
 	
 	static String query(final String query) throws BaseXException {
